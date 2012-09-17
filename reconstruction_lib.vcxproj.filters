@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="common">
+      <UniqueIdentifier>{b944ba86-4828-4115-97a5-80424f734e37}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="reconstruction">
+      <UniqueIdentifier>{ba44fa1e-aa72-4996-88e2-8e3adb9e0e64}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\reconstruction_lib\common\SampleBuffer.hpp">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="src\reconstruction_lib\common\Util.hpp">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="src\reconstruction_lib\reconstruction\Reconstruction.hpp">
+      <Filter>reconstruction</Filter>
+    </ClInclude>
+    <ClInclude Include="src\reconstruction_lib\reconstruction\ReconstructionRPF.hpp">
+      <Filter>reconstruction</Filter>
+    </ClInclude>
+    <ClInclude Include="src\reconstruction_lib\reconstruction\ReconstructionIndirect.hpp">
+      <Filter>reconstruction</Filter>
+    </ClInclude>
+    <ClInclude Include="src\reconstruction_lib\reconstruction\ReconstructionIndirectCudaKernels.hpp">
+      <Filter>reconstruction</Filter>
+    </ClInclude>
+    <ClInclude Include="src\reconstruction_lib\reconstruction\ReconstructionATrous.hpp">
+      <Filter>reconstruction</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="src\reconstruction_lib\common\Sobol5.inl">
+      <Filter>common</Filter>
+    </None>
+    <None Include="src\reconstruction_lib\reconstruction\ReconstructionIndirectCudaKernels.cu">
+      <Filter>reconstruction</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\reconstruction_lib\common\SampleBuffer.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="src\reconstruction_lib\common\Util.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="src\reconstruction_lib\reconstruction\ReconstructionRPF.cpp">
+      <Filter>reconstruction</Filter>
+    </ClCompile>
+    <ClCompile Include="src\reconstruction_lib\reconstruction\ReconstructionIndirect.cpp">
+      <Filter>reconstruction</Filter>
+    </ClCompile>
+    <ClCompile Include="src\reconstruction_lib\reconstruction\ReconstructionIndirectCuda.cpp">
+      <Filter>reconstruction</Filter>
+    </ClCompile>
+    <ClCompile Include="src\reconstruction_lib\reconstruction\ReconstructionATrous.cpp">
+      <Filter>reconstruction</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

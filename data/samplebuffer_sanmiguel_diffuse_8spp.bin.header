@@ -1,0 +1,8 @@
+Version 2.2
+Width 362
+Height 620
+Samples per pixel 8
+CoC coefficients (coc radius = C0/w+C1): -0.000000,0.000000
+Pixel-to-camera matrix: 0.004132,0.000000,0.000000,-0.750000,0.000000,-0.004132,0.000000,1.652893,0.000000,0.000000,0.000000,1.000000,0.000000,0.000000,-99.999001,100.000000
+Encoding = binary
+x,y,w,u,v,t,r,g,b,pri_mv(3d),pri_normal(3d),albedo(3d),sec_origin(3d),sec_hitpoint(3d),sec_mv(3d),sec_normal(3d),direct(3d),sec_albedo(3d),sec_direct(3d)
